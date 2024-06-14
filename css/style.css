@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.arrow {
+    border: solid rgb(255, 0, 0);
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .slogan{
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 5%;
+    width: 100%;
+}
+.slogan i{
+    margin-right: 1%;
+    margin-bottom: 0.3%;
+}
+.slogan h1{
+    font-size: 50px;
+}
+.slogan p{
+    font-size: 25px;
+    margin-left: 3%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 12px;
+    }
+    header{
+        padding-top: 15px;
+    }
+    img{
+        max-width: 600px;
+    }
+    header img{
+        max-height: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    
+
+  }
