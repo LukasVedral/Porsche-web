@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 body{
     font-family: 'Plus Jakarta Sans', sans-serif;
-}
+    background-color: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 45%, rgba(177,177,177,1) 100%);}
 .arrow {
     border: solid rgb(255, 0, 0);
-    border-width: 0 4px 4px 0;
+    border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 10px;
+    padding: 8px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
   .slogan{
     position: absolute;
-    margin-top: -8%;
-    margin-left: 5%;
+    margin-top: -18%;
+    margin-left: 2%;
     width: 100%;
 }
 .slogan i{
@@ -21,31 +22,92 @@ body{
     margin-bottom: 0.3%;
 }
 .slogan h1{
-    font-size: 50px;
+    font-size: 35px;
 }
 .slogan p{
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 3%;
 }
+.wrapper {
+    content: icon;
+    margin: 0 auto;
+    max-width: 960px; 
+    padding-right: 10px; 
+    padding-left:  10px;
+  }
 
+.gallery .card:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
 
+  nav a:before{
+    transform: rotate(-45deg);
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    content: '';
+    margin-right: 4px;
+    margin-bottom: 3px;
+    
+}   
 
-@media only screen and (max-width: 600px) {
-    body{
+@media only screen and (max-width: 960px) {
+    .arrow {
+        border: solid rgb(255, 0, 0);
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 5px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+    .slogan{
+        position: absolute;
+        margin-top: -35%;
+        margin-left: 5%;
+        width: 100%;
+    }
+    .slogan i{
+        margin-right: 1%;
+        margin-bottom: 0.3%;
+    }
+    .slogan h1{
+        font-size: 25px;
+    }
+    .slogan p{
         font-size: 12px;
+        margin-left: 3%;
     }
-    header{
-        padding-top: 15px;
+    
+    
+
+  }
+  @media only screen and (max-width: 450px) {
+    .arrow {
+        border: solid rgb(255, 0, 0);
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 2px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+    .slogan{
+        position: absolute;
+        margin-top: -35%;
+        margin-left: 5%;
+        width: 100%;
     }
-    img{
-        max-width: 600px;
+    .slogan i{
+        margin-right: 1%;
+        margin-bottom: 0.3%;
     }
-    header img{
-        max-height: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        margin-bottom: 5px;
+    .slogan h1{
+        font-size: 15px;
+    }
+    .slogan p{
+        font-size: 7px;
+        margin-left: 3%;
     }
     
     
