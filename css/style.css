@@ -2,33 +2,10 @@
 body{
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 45%, rgba(177,177,177,1) 100%);}
-.arrow {
-    border: solid rgb(255, 0, 0);
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 8px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  .slogan{
-    position: absolute;
-    margin-top: -18%;
-    margin-left: 2%;
-    width: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 45%, rgba(177,177,177,1) 100%);
 }
-.slogan i{
-    margin-right: 1%;
-    margin-bottom: 0.3%;
-}
-.slogan h1{
-    font-size: 35px;
-}
-.slogan p{
-    font-size: 20px;
-    margin-left: 3%;
-}
-.wrapper {
+
+    .wrapper {
     content: icon;
     margin: 0 auto;
     max-width: 960px; 
