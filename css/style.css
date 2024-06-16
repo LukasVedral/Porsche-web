@@ -4,7 +4,6 @@ body{
     background-color: rgb(255, 255, 255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 45%, rgba(177,177,177,1) 100%);
 }
-
     .wrapper {
     content: icon;
     margin: 0 auto;
@@ -13,6 +12,34 @@ body{
     padding-left:  10px;
   }
 
+  .arrow {
+    border: solid rgb(255, 0, 0);
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .slogan{
+    position: relative;
+    margin-top: -35%;
+    margin-left: 5%;
+    width: 100%;
+    padding-bottom: 30%;
+}
+.slogan i{
+    margin-right: 1%;
+    margin-bottom: 0.3%;
+}
+.slogan h1{
+    font-size: 2em;;
+    color: rgb(255, 255, 255);
+}
+.slogan p{
+    font-size: 1em;
+    margin-left: 3%;
+    color: rgb(209, 209, 209);
+}
 .gallery .card:hover{
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
@@ -40,20 +67,21 @@ body{
         -webkit-transform: rotate(-45deg);
       }
     .slogan{
-        position: absolute;
+        position: relative; 
         margin-top: -35%;
         margin-left: 5%;
         width: 100%;
+        padding-bottom: 30%;
     }
     .slogan i{
         margin-right: 1%;
         margin-bottom: 0.3%;
     }
     .slogan h1{
-        font-size: 25px;
+        font-size: 1.5em;
     }
     .slogan p{
-        font-size: 12px;
+        font-size: 0.8em;
         margin-left: 3%;
     }
     
@@ -70,20 +98,21 @@ body{
         -webkit-transform: rotate(-45deg);
       }
     .slogan{
-        position: absolute;
+        position: relative;
         margin-top: -35%;
         margin-left: 5%;
         width: 100%;
+        padding-bottom: 30%;
     }
     .slogan i{
         margin-right: 1%;
         margin-bottom: 0.3%;
     }
     .slogan h1{
-        font-size: 15px;
+        font-size: 1em;
     }
     .slogan p{
-        font-size: 7px;
+        font-size: 0.5em;
         margin-left: 3%;
     }
     
